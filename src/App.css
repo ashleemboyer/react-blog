@@ -31,3 +31,63 @@
     transform: rotate(360deg);
   }
 }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 24px 0;
+}
+
+#title {
+  margin: 0 24px;
+  margin-bottom: 24px;
+}
+
+.post {
+  border: 1px solid grey;
+  border-radius: 2px;
+  margin: 24px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.post h2 {
+  margin: 0 12px;
+}
+
+.post-signature {
+  margin: 0 12px;
+  margin-top: 4px;
+}
+
+.post-intro {
+  margin: 16px 12px;
+}
+
+pre {
+  font-family: sans-serif;
+
+  overflow-x: auto;
+  white-space: pre-wrap;
+  white-space: -moz-pre-wrap;
+  white-space: -pre-wrap;
+  white-space: -o-pre-wrap;
+  word-wrap: break-word;
+}
+
+.post-content {
+  margin: 0 12px;
+  text-align: justify;
+  line-height: 20px;
+}
+
+.post-content p {
+  margin-top: 16px;
+}
+
